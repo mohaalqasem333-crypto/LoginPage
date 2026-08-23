@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+            
+        }
+
+        .main {
+            display: flex;
+            width: 100%;
+            height: 100vh;
+            background-image: url(haruudu-mountains-10397342_1280.png);
+            background-size: cover;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login_cover {
+            display: flex;
+            padding: 30px 20px 30px;
+            flex-direction: column;
+            width: 350px;
+            background-color: rgba(255, 255, 255, 0.292);
+            justify-content: center;
+            border-radius: 5px;
+            align-items: center;
+        }
+
+        .login_title {
+            margin: 20px;
+        }
+
+        .input_data {
+            height: 50px;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.07);
+            border: none;
+            padding: 10px;
+            margin: 10px 0px;
+            border-radius: 5px;
+        }
+
+        button {
+            margin: 20px 0px;
+            height: 50px;
+            width: 100%;
+            padding: 10px;
+            border: none;
+            background-color: green;
+            cursor: pointer;
+        }
+
+        .login_row {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: blue;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="login_cover">
+            <h1 class="login_title">Account Login</h1>
+            <input class="input_data" type="text" placeholder="User Name">
+            <input class="input_data" type="password" placeholder="Password">
+            <button>LOGIN</button>
+            <div class="login_row">
+                <div>
+                    <input type="checkbox"> Remember me
+                </div>
+                <a href="#">Forget Password?</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
